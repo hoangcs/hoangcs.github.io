@@ -7,7 +7,7 @@ layout: home
 
 <div class="home">
   <div class="info">
-    <h1 class="title">@hoangcs</h1>
+    <h1 class="title">@hoangchu</h1>
     <h3>Likes designing and coding.</h3>
   </div>
 
