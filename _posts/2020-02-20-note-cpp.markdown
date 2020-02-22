@@ -20,11 +20,43 @@ thumbnail: https://lh3.googleusercontent.com/dbM6rXXOHBNco7QEbO_8ij5AUvaZLnG-sJp
 
 ### Programing
 - *** "Tìm năm nhuận?" ***
-```
+```cpp
+#include <stdio.h> 
+#include <stdbool.h> 
+  
+bool checkYear(int year) 
+{ 
+    // Nếu số năm chia hết cho 400,
+    // đó là 1 năm nhuận
+    if (year % 400 == 0) 
+        return true; 
+  
+    // Nếu số năm chia hết cho 4 và không chia hết cho 100,
+    // đó không là 1 năm nhuận
+    if (year % 4 == 0 && year % 100 != 0) 
+        return true;
+ 
+    // trường hợp còn lại 
+    // không phải năm nhuận
+    return false; 
+} 
+  
+ 
+int main() 
+{ 
+    int year = 2000; 
+  
+    if(checkYear(year) == true){
+        printf("%d la nam nhuan!", year): 
+    }else{
+        printf("%d khong phai nam nhuan!", year): 
+    }
+    return 0; 
+}
 ```
 
 - *** Find min max ***
-```
+```cpp
 ```
 
 - *** Sort numbers ***

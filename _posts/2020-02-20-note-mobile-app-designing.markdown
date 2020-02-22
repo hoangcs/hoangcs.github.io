@@ -41,4 +41,4 @@ thumbnail: https://lh3.googleusercontent.com/97_spjfDv-56pi_8N0cf22Vl6Ir9UG3W75O
 - [What is Mobile app](https://vi.wikipedia.org/wiki/%E1%BB%A8ng_d%E1%BB%A5ng_tr%C3%AAn_thi%E1%BA%BFt_b%E1%BB%8B_di_%C4%91%E1%BB%99ng){:.text-link}
 - [Android Google store app](https://play.google.com/store/apps){:.text-link}
 - [Ios Apple store app](https://www.apple.com/ios/app-store/){:.text-link}
-- 
+- [24 Tools for design app](https://buildfire.com/tools-for-mobile-app-designers/){:.text-link}
