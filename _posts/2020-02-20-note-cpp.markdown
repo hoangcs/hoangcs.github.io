@@ -19,7 +19,7 @@ thumbnail: https://lh3.googleusercontent.com/dbM6rXXOHBNco7QEbO_8ij5AUvaZLnG-sJp
 - 
 
 ### Programing
-- *** "Tìm năm nhuận?" ***
+- ***Tìm năm nhuận?***
 ```cpp
 #include <stdio.h> 
 #include <stdbool.h> 
@@ -55,15 +55,15 @@ int main()
 }
 ```
 
-- *** Find min max ***
+- ***Find max?***
 ```cpp
 ```
 
-- *** Sort numbers ***
+- ***Sort numbers?***
 ```
 ```
 
-- *** Find prime numbers ***
+- ***Find prime numbers?***
 ```
 ```
 

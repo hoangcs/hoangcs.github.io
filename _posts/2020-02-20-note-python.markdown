@@ -19,7 +19,7 @@ thumbnail: https://lh3.googleusercontent.com/fDrGzZVF22gr0E7GBxvTl4ulSYHv-U8UfER
 - 
 
 ### Programing
-- *** "Tìm năm nhuận?" ***
+- ***Tìm năm nhuận?***
 ```python
 def checkYear(year): 
     # Return true if year is a multiple 
@@ -34,14 +34,14 @@ else:
     print("Not a Leap Year")
 ```
 
-- *** Find min max ***
+- ***Find max?***
 ```python
 nums = [1, 8, 2, 23, 7, -4, 18, 23, 42, 37, 2]
  
 max(nums)
 ```
 
-- *** Sort numbers ***
+- ***Sort numbers?***
 ```python
 numbers = [1, 3, 4, 2] 
 
@@ -52,6 +52,7 @@ print(numbers)
 ```
 
 ### Note
+- 
 
 ### TODO
 - Reading
