@@ -1,0 +1,44 @@
+---
+layout: post
+title: Note C++ programing
+description: My C++ note programing.
+date: 2020-02-20 10:59:00 +0700
+categories: note
+thumbnail: https://lh3.googleusercontent.com/dbM6rXXOHBNco7QEbO_8ij5AUvaZLnG-sJprVmGHkY1EGPNmJnaPo1lIbV2c0NysBP4-x--IDxjfELrm2N7d_swMlb6pSjHKWGxiODsDA4kkJQzt5c1_cl4nPy6GvGkU40cT0iMOm3VkNT1KHJQj5CMokGUm7SKFCx53EqZJ09EcJ6dwWJALO9WstA1uaZtckABScHIdDYJChDtmLmqjhDMUZOgQy1Hub0Nb9ALESMZ628eQkSqXAmBhq0O6TvfEE4i47qHEF-IrTvOSLF904yw6DacBhr0Mng9LFHgm64X2siieVvsmGH3Zt8YdqOa8iDtV8P49BcqNJGeit7Chb-R-8DeeI39NGSxCPkyW_HjztsJRWbGlsTee6r1YMEY-b6sPaUXbOU4P-iVQUaoEvfHTAKYq23MkzVkoLYwXaeNFH4NlYb3Az69CY6Y68Fv36bnXKU98XcwiCx-oOP22OQvTR-8YzXLI57r0edYoFOjPd4Hm1WDmyB0ezYsewdsAKkl3zkuo5QYFX_tbuRQISTfWSOQLIvzNW-L5j6M-n-KcxB_ixePtgy6bVDfcbiRPt29ArqtcK2RIlmcfF4yB23phCTzYWJiThDIwv1IQGxYIbfXDTMg_2iDaVb7Yx89H-a3-0Qfa8GwEIZw8x1ALHeevvUmpJllIhlq_ZP464Ql0_M6d_A3tuFSOLj4L-A2sRiZwIVrgP-QKwQzqn3fWzkiEzRgNrr8Mz2J8Ngc-ESyvjMRn=w800-h450-no
+---
+
+![](https://lh3.googleusercontent.com/dbM6rXXOHBNco7QEbO_8ij5AUvaZLnG-sJprVmGHkY1EGPNmJnaPo1lIbV2c0NysBP4-x--IDxjfELrm2N7d_swMlb6pSjHKWGxiODsDA4kkJQzt5c1_cl4nPy6GvGkU40cT0iMOm3VkNT1KHJQj5CMokGUm7SKFCx53EqZJ09EcJ6dwWJALO9WstA1uaZtckABScHIdDYJChDtmLmqjhDMUZOgQy1Hub0Nb9ALESMZ628eQkSqXAmBhq0O6TvfEE4i47qHEF-IrTvOSLF904yw6DacBhr0Mng9LFHgm64X2siieVvsmGH3Zt8YdqOa8iDtV8P49BcqNJGeit7Chb-R-8DeeI39NGSxCPkyW_HjztsJRWbGlsTee6r1YMEY-b6sPaUXbOU4P-iVQUaoEvfHTAKYq23MkzVkoLYwXaeNFH4NlYb3Az69CY6Y68Fv36bnXKU98XcwiCx-oOP22OQvTR-8YzXLI57r0edYoFOjPd4Hm1WDmyB0ezYsewdsAKkl3zkuo5QYFX_tbuRQISTfWSOQLIvzNW-L5j6M-n-KcxB_ixePtgy6bVDfcbiRPt29ArqtcK2RIlmcfF4yB23phCTzYWJiThDIwv1IQGxYIbfXDTMg_2iDaVb7Yx89H-a3-0Qfa8GwEIZw8x1ALHeevvUmpJllIhlq_ZP464Ql0_M6d_A3tuFSOLj4L-A2sRiZwIVrgP-QKwQzqn3fWzkiEzRgNrr8Mz2J8Ngc-ESyvjMRn=w800-h450-no)
+
+
+### Criteria
+- Known about C++ syntax
+- Note some functions written by C++
+
+### Concept
+- [What is C++?](https://vi.wikipedia.org/wiki/C%2B%2B){:.text-link}
+- 
+
+### Programing
+- *** "Tìm năm nhuận?" ***
+```
+```
+
+- *** Find min max ***
+```
+```
+
+- *** Sort numbers ***
+```
+```
+
+- *** Find prime numbers ***
+```
+```
+
+### TODO
+- Reading
+-
+
+### References
+- [What is C++?](https://vi.wikipedia.org/wiki/C%2B%2B){:.text-link}
+- [https://www.w3schools.com/cpp/](https://www.w3schools.com/cpp/){:.text-link}
