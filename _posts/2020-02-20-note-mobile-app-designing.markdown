@@ -41,4 +41,5 @@ thumbnail: https://lh3.googleusercontent.com/97_spjfDv-56pi_8N0cf22Vl6Ir9UG3W75O
 - [What is Mobile app](https://vi.wikipedia.org/wiki/%E1%BB%A8ng_d%E1%BB%A5ng_tr%C3%AAn_thi%E1%BA%BFt_b%E1%BB%8B_di_%C4%91%E1%BB%99ng){:.text-link}
 - [Android Google store app](https://play.google.com/store/apps){:.text-link}
 - [Ios Apple store app](https://www.apple.com/ios/app-store/){:.text-link}
-- [24 Tools for design app](https://buildfire.com/tools-for-mobile-app-designers/){:.text-link}
+- [24 tools for design app](https://buildfire.com/tools-for-mobile-app-designers/){:.text-link}
+- [Framer tool](https://www.framer.com/?utm_source=google&utm_medium=adwords&utm_campaign=TW-WW-Des-GS-UA-Traffic-20190611-Generic.Bmm_WW-Des-GS-KEY-x-1399-Generic.Bmm-Design.Tool&gclid=Cj0KCQiAnL7yBRD3ARIsAJp_oLYVOBgGq8gchxcpRaz9cKqYqLemYg5pThu4I4FD7bLqy5Um-X5TJkAaAl-vEALw_wcB){:.text-link}
