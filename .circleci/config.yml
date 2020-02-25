@@ -1,0 +1,29 @@
+#include <iostream>
+#include <string.h>
+#include <aio.h>
+using namespace std;
+  struct Book;
+    string name;
+    string title;
+    int id;
+    int year;
+    int getYear0ld(){
+      return(2020 - year);
+    }
+
+
+
+int main(){
+  Book x;
+  x.name="C++";
+  x.title="NNLT";
+  x.year=2015;
+  x.id=0
+
+  cout<<"Ten sach:"<<x.name<<endl;
+  cout<<"Tuoi cua sach:"<<x.getYear0ld<<endl;
+  return 1;
+
+
+}
+
