@@ -102,7 +102,8 @@ int main(){
 - Execute compilation command
 ```g++ abc.c -o abc```
 - Run: ./abc
-```g ++ is the token we use gcc to translate. gcc to translate for C (file * .c), abc.c is our code file
+```
+g ++ is the token we use gcc to translate. gcc to translate for C (file * .c), abc.c is our code file
 -o abc executes a notice of outputting a file named abc. You can name other (VD -o abb, aac or -o hoangchu, ...). If this parameter is not available, we only run g ++ abc.c, it will default to a.out file
 ```
   
