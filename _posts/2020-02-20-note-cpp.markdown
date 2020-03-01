@@ -94,6 +94,19 @@ int main(){
 - Reading
 - Program
 
+## How to using C++ on Ubuntu
+- Setup library
+```sudo apt-get install build-essential```
+- Use terminal and create file
+```gedit abc.c```
+- Execute compilation command
+```g++ abc.c -o abc```
+- Run: ./abc
+```g ++ is the token we use gcc to translate. gcc to translate for C (file * .c), abc.c is our code file
+-o abc executes a notice of outputting a file named abc. You can name other (VD -o abb, aac or -o hoangchu, ...). If this parameter is not available, we only run g ++ abc.c, it will default to a.out file
+```
+  
+
 ## References
 - [What is C++?](https://vi.wikipedia.org/wiki/C%2B%2B){:.text-link}
 - [https://www.w3schools.com/cpp/](https://www.w3schools.com/cpp/){:.text-link}
