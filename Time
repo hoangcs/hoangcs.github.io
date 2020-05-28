@@ -1,0 +1,355 @@
+#include <iostream>
+#include <unistd.h>
+#include<string.h>
+#include <stdio.h>
+
+using namespace std;
+
+#include <iomanip>
+class Time
+{
+     private:
+          int hour1;
+          int minutes1;
+          int second1;
+          int hour2;
+          int second2;
+          int minutes2;
+     public:
+          Time(int t, int h1=00, int m1=00, int s1=00, int h2=00, int m2=00, int s2=00)
+          {
+            setHour1(h1);
+            setMinutes1(m1);
+            setSecond1(s1);
+            setHour2(h2);
+            setMinutes2(m2);
+            setSecond2(s2);            
+          }
+
+          Time()
+          {
+            int h1=00;
+            int h2=00;
+            int m1=00;
+            int m2=00;
+            int s1=00;
+            int s2=00;
+          }
+          
+          ~Time()
+          {
+               cout<<endl;
+          }
+          
+          
+          void setHour1(int h1)
+          {
+                this->hour1 = h1;
+               
+          }
+          
+          
+          int getHour1()
+          {
+              return hour1;
+          }
+          
+
+          void setMinutes1(int m1)
+          {
+                this->minutes1 = m1;
+              
+          }
+          
+          
+          int getMinutes1()
+          {
+              return minutes1;
+          }
+          
+          
+          void setSecond1(int s1)
+          {
+                this->second1 = s1;              
+          }
+          
+          
+          int getSecond1()
+          {
+            return second1;
+          }
+
+
+          void setHour2(int h2)
+          {
+                this->hour2 = h2;
+          }
+          
+          
+          int getHour2()
+          {
+              return hour2;
+          }
+
+
+          void setMinutes2(int m2)
+          {
+                this->minutes2 = m2;
+              
+          }
+          
+          
+          int getMinutes2()
+          {
+              return minutes2;
+          }
+          
+          
+          void setSecond2(int s2)
+          {
+                this->second1 = s2;
+              
+          }
+          
+          
+          int getSecond2()
+          {
+            return second2;
+          }
+
+          void CountUpI(int h1, int m1, int s1, int h2, int m2, int s2)
+          { 
+            int a=h1;
+            int b=m1;
+            int c=s1;
+            while(h1 != h2 || m1 !=m2 || s1!= s2 )
+            {
+              cout<<"/Giờ Quốc Tế/"<<endl;
+              cout<<"Start  "<<setfill('0')<<setw(2)<<a<<":"<<setfill('0')<<setw(2)<<b<<":"<<setfill('0')<<setw(2)<<c<<endl;
+              cout<<"Stop   "<<setfill('0')<<setw(2)<<h2<<":"<<setfill('0')<<setw(2)<<m2<<":"<<setfill('0')<<setw(2)<<s2<<endl;
+              if(s1==59)
+              {
+                s1=0;
+                m1=m1+1;
+              }else
+              {
+                s1=s1+1;
+              }
+              if(m1==60)
+              {
+                m1=0;
+                h1=h1+1;
+              }
+              if(h1==24)
+              {
+                h1=0;
+                m1=0;
+                s1=0;
+              }
+              cout<<endl<<endl;
+              cout<<"Count Up:   "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<":"<<setfill('0')<<setw(2)<<s1<<endl;
+              usleep(1000000);
+              if(h1 != h2 || m1 !=m2 || s1!= s2 )
+              {
+                system("clear");
+              }
+
+            }
+          }
+
+
+            void CountDownI(int h1, int m1, int s1, int h2, int m2, int s2)
+            {
+              int a=h1;
+              int b=m1;
+              int c=s1;
+              while(h1 != h2 || m1 !=m2 || s1!= s2 )
+              {
+                cout<<"/Giờ Quốc Tế/"<<endl;
+                cout<<"Start  "<<setfill('0')<<setw(2)<<a<<":"<<setfill('0')<<setw(2)<<b<<":"<<setfill('0')<<setw(2)<<c<<endl;
+                cout<<"Stop   "<<setfill('0')<<setw(2)<<h2<<":"<<setfill('0')<<setw(2)<<m2<<":"<<setfill('0')<<setw(2)<<s2<<endl;
+                if(s1==0)
+                {
+                  s1=59;
+                  m1=m1-1;
+                }else
+                {
+                  s1=s1-1;
+                }
+                if(m1==-1)
+                {
+                  m1=59;
+                  h1=h1-1;
+                }
+                if(h1==-1 && m1==59 && s1 ==59)
+                {
+                  h1=23;
+                  m1=59;
+                  s1=59;
+                }
+                cout<<endl<<endl;
+                cout<<"Count Down:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<":"<<setfill('0')<<setw(2)<<s1<<endl;
+                usleep(1000000);
+                if(h1 != h2 || m1 !=m2 || s1!= s2 )
+                {
+                  system("clear");
+                }
+              }
+            }
+
+           void CountUpS(int h1, int m1,int s1, int ampm1, int h2, int m2,int s2, int ampm2)
+            {
+              int a=h1;
+              int b=m1;
+              while(h1 != h2 || m1 !=m2 || ampm1!=ampm2)
+              {
+                cout<<"/Giờ Địa Phương/"<<endl;
+                if(ampm1==1)
+                {
+                  cout<<"Start  "<<setfill('0')<<setw(2)<<a<<":"<<setfill('0')<<setw(2)<<b<<" AM"<<endl;
+                }else
+                {
+                  cout<<"Start   "<<setfill('0')<<setw(2)<<a<<":"<<setfill('0')<<setw(2)<<b<<" PM"<<endl;
+                }
+                if(ampm2==1)
+                {
+                  cout<<"Stop   "<<setfill('0')<<setw(2)<<h2<<":"<<setfill('0')<<setw(2)<<m2<<" AM"<<endl;
+                }else
+                {
+                  cout<<"Stop   "<<setfill('0')<<setw(2)<<h2<<":"<<setfill('0')<<setw(2)<<m2<<" PM"<<endl;
+                }
+                if(s1==59)
+                {
+                  s1=0;
+                  m1=m1+1;
+                }else
+                {
+                  s1=s1+1;               
+                }
+                if(m1==60)
+                {
+                  m1=0;
+                  h1=h1+1;
+                }
+                if(h1==12)
+                {
+                  h1=0;
+                  m1=0;
+                  if(ampm1==1)
+                  {
+                    cout<<"Count Up:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<" PM"<<endl;
+                    ampm1=2;
+                  }else
+                  {
+                    cout<<"Count Up:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<" AM"<<endl;
+                    ampm1=1;
+                  }
+                }
+                else if(ampm1==1)
+                {
+                  cout<<"Count Up:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<" AM"<<endl;
+                }else
+                {
+                  cout<<"Count Up:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<" PM"<<endl;
+                }
+                usleep(1000000);
+                if(h1 != h2 || m1 !=m2 || ampm1!=ampm2)
+                {
+                  system("clear");
+                }
+              }
+            }
+
+
+            void CountDownS(int h1,int m1,int s1,int ampm1,int h2,int m2,int s2,int ampm2)
+            {
+              s1=s2=60;
+              int a=h1;
+              int b=m1;
+              while(h1 != h2 || m1 !=m2 || ampm1!=ampm2)
+              {
+                cout<<"/Giờ Địa Phương/"<<endl;
+                if(ampm1==1)
+                {
+                  cout<<"Start  "<<setfill('0')<<setw(2)<<a<<":"<<setfill('0')<<setw(2)<<b<<" AM"<<endl;
+                }else
+                {
+                  cout<<"Start   "<<setfill('0')<<setw(2)<<a<<":"<<setfill('0')<<setw(2)<<b<<" PM"<<endl;
+                }
+                if(ampm2==1)
+                {
+                  cout<<"Stop   "<<setfill('0')<<setw(2)<<h2<<":"<<setfill('0')<<setw(2)<<m2<<" AM"<<endl;
+                }else
+                {
+                  cout<<"Stop   "<<setfill('0')<<setw(2)<<h2<<":"<<setfill('0')<<setw(2)<<m2<<" PM"<<endl;
+                }
+                if(s1==0)
+                {
+                  s1=59;
+                  m1=m1-1;
+                }else
+                {
+                  s1=s1-1;
+                }
+                if(m1==-1)
+                {
+                  m1=59;
+                  h1=h1-1;
+                }
+                if(h1==-1 && m1==59 && s1==59)
+                {
+                  h1=11;
+                  m1=59;
+                  if(ampm1==1)
+                  {
+                    cout<<"Count Down:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<" PM"<<endl;
+                    ampm1=2;
+                  }else
+                  {
+                    cout<<"Count Down:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<" AM"<<endl;
+                    ampm1=1;
+                  }
+                }
+                else if(ampm1==1)
+                {
+                  cout<<"Count Down:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<" AM"<<endl;
+                }else
+                {
+                  cout<<"Count Down:    "<<setfill('0')<<setw(2)<<h1<<":"<<setfill('0')<<setw(2)<<m1<<" PM"<<endl;
+                }
+                usleep(1000000);
+                if(h1 != h2 || m1 !=m2 || ampm1!=ampm2)
+                {
+                  system("clear");
+                }
+              }
+            }       
+};
+
+int main()
+{
+  int c,h1,m1,s1,h2,m2,s2;
+  int ampm1,ampm2;
+  Time count1;
+  Time count2;
+  cout<<"Choose?"<<endl;
+  cout<<"  1. Count Up                   2. Count Down"<<endl<<endl;
+  cout<<"3. Giờ Quốc Tế        4.Giờ Địa Phương"<<endl;
+  cout<<"   Count Up                    Count Down"<<endl;
+  cin>>c;
+  if(c==1)  
+  {
+    count1.CountUpI(10,12,00,10,13,00);
+  }else if(c==2)
+  {
+    count1.CountDownI(10,12,00,10,11,00);
+  }
+  else if(c==3) 
+  {
+    count2.CountUpS(10,11,00,2,10,12,00,2);
+  }else
+  {
+    count2.CountDownS(10,12,00,1,10,11,00,1);
+  }
+  return 0;
+}
